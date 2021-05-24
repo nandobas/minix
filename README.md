@@ -27,7 +27,7 @@ docker run --rm -d --name container-minix image:minix
 ![](img/03.png)
 
 
-And now, login into the minix terminal.\n
+And now, login into the minix terminal.<br />
 Voilà!
 
 ```sh
