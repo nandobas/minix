@@ -2,5 +2,35 @@
 Run image minix with Dockerfile
 
 #start
+
+Clone project
+```sh
+git clone http://github.com/nandobas/minix.git
+```
+![](img/01.png)
+
+go to dir minix
+```sh
+cd minix
+```
+
+Build image
+```sh
 docker build -t imagem:minix .
-docker run --rm -d --name minix-container imagem:minix
+```
+![](img/02.png)
+
+Exec container
+```sh
+docker run --rm -d --name container-minix image:minix
+```
+![](img/03.png)
+
+
+now log into the minix terminal.
+Voilà!
+
+```sh
+docker exec -it container-minix ssh localhost
+```
+![](img/04.png)
