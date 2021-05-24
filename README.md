@@ -1,7 +1,7 @@
 # minix
 Run image minix with Dockerfile
 
-#start
+## start
 
 Clone project
 ```sh
@@ -9,7 +9,7 @@ git clone http://github.com/nandobas/minix.git
 ```
 ![](img/01.png)
 
-go to dir minix
+go to minix directory 
 ```sh
 cd minix
 ```
@@ -27,7 +27,7 @@ docker run --rm -d --name container-minix image:minix
 ![](img/03.png)
 
 
-now log into the minix terminal.
+And now, login into the minix terminal.\n
 Voilà!
 
 ```sh
