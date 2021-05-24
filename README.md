@@ -16,7 +16,7 @@ cd minix
 
 Build image
 ```sh
-docker build -t imagem:minix .
+docker build -t image:minix .
 ```
 ![](img/02.png)
 
